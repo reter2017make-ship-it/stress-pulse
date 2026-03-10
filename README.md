@@ -1,12 +1,3 @@
-# StressPulse: ML Pipeline для предсказания уровня стресса
-## 📋 Описание проекта
-End-to-end ML pipeline, развернутый в Yandex Cloud, с использованием:
-- **Terraform** — инфраструктура как код
-- **MLflow** — трекинг экспериментов и регистрация моделей
-- **Airflow** — оркестрация пайплайнов
-- **FastAPI** — сервинг модели
-- **Yandex Cloud** — облачная инфраструктура
-
 # StressPulse: Production ML Pipeline for Stress Prediction
 
 [![Python](https://img.shields.io/badge/Python-3.9-blue)](https://www.python.org/)
@@ -135,21 +126,3 @@ After running the pipeline, MLflow shows:
 
 Best model is automatically promoted to Production.
 
-
-
-
-
-## 📊 Фичи модели
-- Качество сна (1-10)
-- Настроение (1-10)
-- Рабочие часы
-- Чашки кофе
-- Дедлайны (да/нет)
-- Спорт (да/нет)
-- И другие...
-
-## 🛠️ Технологии
-- Python, scikit-learn, XGBoost
-- MLflow, Airflow
-- Terraform, Docker
-- Yandex Cloud
